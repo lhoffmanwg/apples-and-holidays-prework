@@ -78,12 +78,12 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_ary.each do |item|
         item.capitalize!
       end
-      binding.pry
+      
       my_capitalized_holiday_str = holiday_ary.join(" ")
       my_supplies_str = supplies.join(", ")
       
       puts  "  #{my_capitalized_holiday_str}: #{my_supplies_str}"
-       
+      binding.pry 
     end  
     
   end  
